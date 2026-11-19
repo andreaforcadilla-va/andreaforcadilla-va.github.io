@@ -106,15 +106,6 @@ blockquote strong{color:var(--ink)}
 /* how */
 .how{display:grid;gap:24px}
 @media(min-width:800px){.how{grid-template-columns:repeat(2,1fr)}}
-/* contact */
-.contact{background:var(--ink);color:#fff}
-.contact h2{color:#fff}
-.contact .lead{color:#cfc9dd}
-.mail{display:inline-block;font:700 clamp(1.4rem,5vw,2.8rem)/1.2 'Outfit',sans-serif;color:#fff;text-decoration-color:var(--accent);text-decoration-thickness:4px;text-underline-offset:8px;word-break:break-all}
-.mail:hover{color:#d9c8fb}
-.contact .btn.primary{background:#fff;color:var(--ink);border-color:#fff}
-.contact .btn.primary:hover{background:var(--tint)}
-.contact :focus-visible{outline-color:#fff}
 footer.site{padding:32px 0;color:var(--muted);font-size:.95rem;border-top:1px solid var(--line)}
 /* motion */
 .fade{opacity:0;transform:translateY(12px);transition:opacity .6s ease,transform .6s ease}
@@ -135,7 +126,6 @@ footer.site{padding:32px 0;color:var(--muted);font-size:.95rem;border-top:1px so
       <li><a href="#experience">Experience</a></li>
       <li><a href="#clients">Clients</a></li>
       <li><a href="#how">How I work</a></li>
-      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </header>
@@ -148,8 +138,7 @@ footer.site{padding:32px 0;color:var(--muted);font-size:.95rem;border-top:1px so
       <h1>Andrea Louise Forcadilla</h1>
       <p class="promise">I help small businesses and creative brands stay consistent online by taking care of their content, captions, and social media planning.</p>
       <div class="btns">
-        <a class="btn primary" href="mailto:louise.andy07@gmail.com">Email me</a>
-        <a class="btn ghost" href="#work">See my work</a>
+        <a class="btn primary" href="#work">See my work</a>
       </div>
     </div>
     <div class="me">
@@ -246,15 +235,6 @@ footer.site{padding:32px 0;color:var(--muted);font-size:.95rem;border-top:1px so
       <div class="card"><h3>Time zone</h3><p>I'm in the Philippines (PHT, UTC+8). I'm flexible and open to international time zones.</p></div>
       <div class="card"><h3>Availability</h3><p>I can start within one week.</p></div>
     </div>
-  </div>
-</section>
-
-<section class="contact fade" id="contact">
-  <div class="wrap">
-    <h2>Let's talk about your content</h2>
-    <p class="lead">Send me a short note about your brand and what you need. I'll reply by email.</p>
-    <a class="mail" href="mailto:louise.andy07@gmail.com">louise.andy07@gmail.com</a>
-    <div class="btns"><a class="btn primary" href="mailto:louise.andy07@gmail.com">Email me</a></div>
   </div>
 </section>
 </main>
